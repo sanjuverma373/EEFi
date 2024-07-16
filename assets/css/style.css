@@ -1,0 +1,331 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url(./root.css);
+
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        list-style-type: none;
+        text-decoration: none !important;
+}
+
+.heroBg {
+        background-image: url(../images/png/hero-bg.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 905px;
+}
+
+.font-Inter {
+        font-family: "Inter", sans-serif;
+}
+
+.font-plus {
+        font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.font-raleway {
+        font-family: "Raleway", sans-serif;
+}
+
+
+
+.px-31 {
+        padding-left: 31px;
+        padding-right: 31px;
+}
+
+.navBtn {
+        border: 1px solid var(--bg-blue);
+        border-radius: 8px;
+        color: var(--bg-blue);
+}
+
+.mt-162 {
+        margin-top: 46px;
+}
+
+.pb-30 {
+        padding-bottom: 30px;
+}
+
+.max-w-524 {
+        max-width: 524px;
+}
+
+.pb-26 {
+        padding-bottom: 26px;
+}
+
+.linkBtn {
+        text-decoration: underline !important;
+}
+
+
+.dotSet {
+        top: 46px;
+        right: 4px;
+        z-index: -1;
+}
+
+
+
+
+/* amplify */
+
+.amplifyBg {
+        background-image: url(../images/png/amplify-bg.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 833px;
+}
+
+.max-w-610 {
+        max-width: 610px;
+}
+
+.min-h-800 {
+        min-height: 800px;
+}
+
+.cloud {
+        bottom: -100px;
+}
+
+/*  core */
+.pt-93 {
+        padding-top: 93px;
+}
+
+.coreBg {
+        background-image: url(../images/png/core-bg.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 961px;
+}
+
+.max-w-980 {
+        max-width: 980px;
+}
+
+.pb-44 {
+        padding-bottom: 44px;
+}
+
+.sampl {
+        position: absolute;
+        width: 300px;
+        top: 179px;
+
+}
+
+.card {
+        background: linear-gradient(124.24deg, rgba(19, 245, 255, 0.25) 7.19%, rgba(0, 66, 255, 0) 93.2%) !important;
+        box-shadow: 0px 4px 41px 0px #4281EE70;
+        max-width: 335px;
+        min-height: 491px;
+        filter: blur(41);
+}
+
+.px-19 {
+        padding-left: 19px;
+        padding-right: 19px;
+}
+
+.pt-17 {
+        padding-top: 17px;
+}
+
+.pb-31 {
+        padding-bottom: 31px;
+}
+
+.btnInnovation {
+        width: 89px;
+        height: 34px;
+        border-radius: 8px;
+        background: #6C67F133;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.mb-38 {
+        margin-bottom: 38px;
+}
+
+.vaultImg {
+        max-width: 213px;
+        min-height: 213px;
+}
+
+/* graph */
+.grafBg {
+        background-image: url(../images/png/graph-bg.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 968px;
+}
+
+.w-738 {
+        width: 738px;
+}
+
+.w-700 {
+        width: 702px;
+}
+
+.pb-20 {
+        padding-bottom: 20px;
+}
+
+.pt-178 {
+        padding-top: 178px;
+}
+
+.max-w-448 {
+        max-width: 448px;
+}
+
+.pb-35 {
+        padding-bottom: 35px;
+}
+
+.gap-25 {
+        gap: 25px;
+}
+
+.nav-icon {
+        color: var(--text-light-white);
+        font-size: var(--fs-sm);
+        line-height: 17.6px;
+}
+
+.nav-icon::after {
+        content: "";
+        background-color: white;
+        height: 2px;
+        border-radius: 24px;
+        width: 0;
+        bottom: -1px;
+        left: 0;
+        position: absolute;
+        transition: .4s;
+}
+
+.nav-icon:hover::after {
+        left: 0;
+        width: 100%;
+}
+
+/* media quary */
+
+@media (max-width: 991.9px) {
+        .mobileView {
+                position: absolute;
+                background-color: #0576B3;
+                min-height: 100vh;
+                width: 100%;
+                top: 0;
+                left: -100%;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                transition: 300ms linear;
+                z-index: 5;
+        }
+
+        .z-5 {
+                z-index: 5;
+        }
+
+        .overflow_hidden {
+                overflow: hidden !important;
+        }
+
+        .menu span.nav-line1 {
+                height: 2px;
+                width: 30px;
+                background-color: #FFF;
+                display: block;
+                border-radius: 20px;
+        }
+
+        .menu span.nav-line2 {
+                height: 2px;
+                width: 30px;
+                background-color: #FFF;
+                display: block;
+                border-radius: 20px;
+        }
+
+        .menu span.nav-line3 {
+                height: 2px;
+                width: 30px;
+                background-color: white;
+                display: block;
+                border-radius: 20px;
+        }
+
+        .menu span {
+                transition: 300ms linear;
+        }
+
+        .cross span.nav-line1 {
+                transform: rotate(42deg) translateY(13px);
+                transition: 300ms linear;
+                background-color: #FFF;
+                width: 30px;
+        }
+
+        .cross span.nav-line2 {
+                transform: translateX(-100%);
+                opacity: 0;
+                transition: 300ms linear;
+        }
+
+        .cross span.nav-line3 {
+                transform: rotate(-43deg) translateY(-13px);
+                transition: 300ms linear;
+                background-color: #FFF;
+                width: 30px;
+        }
+
+        .flex-direction {
+                flex-direction: column;
+        }
+}
+
+@media (min-width:767.9px) {
+        .w-631 {
+                width: 631px;
+        }
+
+        .h-887 {
+                height: 887px;
+        }
+
+        .sampl {
+                position: absolute;
+                max-width: 449px;
+                top: 179px;
+
+        }
+
+        .mt-162 {
+                margin-top: 162px;
+        }
+}
+
+@media (min-width:991.9px) {
+
+        .mt-10 {
+                margin-top: -10%;
+
+        }
+}

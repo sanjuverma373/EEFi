@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>EEFI</title>
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="icon" href="./assets/images/svg/favicon.svg">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+                integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+                crossorigin="anonymous">
+</head>
+
+<body>
+        <section class="heroBg position-relative z-1">
+                <div class="container">
+                        <nav class="bg-blue py-13">
+                                <div class=" d-flex align-items-center justify-content-between  pt-3">
+                                        <img src="./assets/images/svg/favicon.svg" alt="nav-icon">
+                                        <ul id="navBar"
+                                                class=" mobileView d-flex align-items-center fw-medium gap-25 fs-6 text-white m-0 ps-0 ">
+                                                <li><a onclick="removeoverflow()" class=" nav-icon position-relative "
+                                                                href="#About">About</a></li>
+                                                <li><a onclick="removeoverflow()" class=" nav-icon position-relative "
+                                                                href="#IBO Event">IBO Event</a></li>
+                                                <li><a onclick="removeoverflow()" class=" nav-icon position-relative "
+                                                                href="#EEFI Tokenomics">EEFI Tokenomics</a></li>
+                                                <li><a onclick="removeoverflow()" class=" nav-icon position-relative "
+                                                                href="#Team">Team</a></li>
+                                                <li><a onclick="removeoverflow()" class=" nav-icon position-relative "
+                                                                href="#Team">Partners</a></li>
+                                                <li><a onclick="removeoverflow()" class=" nav-icon position-relative "
+                                                                href="#Team">Roadmap</a></li>
+                                                <li><a onclick="removeoverflow()" class=" nav-icon position-relative "
+                                                                href="#Team">More</a> <img
+                                                                src="./assets/images/svg/arrow.svg" alt=""></li>
+                                        </ul>
+                                        <div class="gap-3 d-flex align-items-center">
+                                                <button class="py-3 px-31 bg-transparent navBtn d-none d-lg-block text-base fw-medium">Enter
+                                                        App</button>
+                                                <div onclick="openNav()"
+                                                        class="menu d-block d-lg-none z-5 ms-3 ms-lg-0">
+                                                        <span class="nav-line1"></span>
+                                                        <span class="my-2 nav-line2"></span>
+                                                        <span class="nav-line3"></span>
+                                                </div>
+                                        </div>
+                                </div>
+                        </nav>
+                        <div class="d-flex flex-direction ">
+                                <div class="mt-162">
+                                        <h1 class="fw-medium text-4xl text-white pb-30 m-0 text-center text-lg-start">Building <span
+                                                        class="d-lg-block">elastic</span>Protocol</h1>
+                                        <h6 class="max-w-524 text-white pb-26 m-0 text-center text-lg-start mx-auto">An ecosystem of unique yield
+                                                strategies that help you earn yield, amplify, and stretch it across all
+                                                market conditions</h6>
+                                        <div class="d-flex align-items-center align-items-lg-start justify-content-center justify-content-lg-start"><a class="text-white linkBtn fw-bold text-md text-center text-lg-start" href="">Audited by Omniscia</a></div>
+                                </div>
+                                <div>
+                                        <img class="w-631 h-887 mt-10 w-100" src="./assets/images/png/robot-future.png"
+                                                alt="robot-future">
+                                </div>
+                        </div>
+                </div>
+                <img class="position-absolute dotSet" src="./assets/images/svg/dots.svg" alt="dots">
+        </section>
+        <div class="amplifyBg bg-black position-relative z-1">
+                <h3 class="text-white text-center fw-extrabold text-3xl m-0 py-4">Amplify and stretch gains</h3>
+                <div class="d-flex align-items-center justify-content-center min-h-800">
+                        <p class="max-w-610 text-center text-white m-0 text-base">We take a different balanced approach
+                                to finding and creating yield opportunities in the everchanging crypto market. Our yield
+                                strategies help users stay protected and hedged during bear markets and amplify yield
+                                during bull markets without resorting to leverage or other dangerous techniques.</p>
+                </div>
+                <img class="w-100 position-absolute cloud" src="./assets/images/png/Clouds-top.png" alt="">
+
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+                crossorigin="anonymous"></script>
+        <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
