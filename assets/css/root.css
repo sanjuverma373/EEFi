@@ -6,15 +6,36 @@
         --fs-3xl: 28px;
          --fs-2xl: 40px;
          --fs-4xl: 46px;
+         --fs-2xxl: 40px; 
         /* color */
         --bg-blue: #1643C3;
+        --color-lightblue: #4281EE70;
+        --color-grey: #CFD5E6;
+        --color-purple: #2A3FA1;
+        --color-purple2: #4878FF;
+        --color-purplegrey: #8494AE;
         /* font-weight */
         --fw-800:800;
 }
+.text-purplegrey {
+        color: var(--color-purplegrey);
+    }
 
 .color-blue {
         color: var(--bg-blue);
 }
+.color-lightblue{
+        background: var(--color-lightblue);
+}
+.color-purple{
+        background-color: var(--color-purple);
+}
+.color-purple2{
+        color: var(--color-purple2);
+}
+.text-grey {
+        color: var(--color-grey);
+    }
 
 .text-4xl {
         font-size: var(--fs-4xl);
@@ -35,9 +56,31 @@
 .text-md {
         font-size: var(--fs-md);
 }
+.text-2xxl{
+        font-size: var(--fs-2xxl);
+}
+.text-2md{
+        font-size: var(--text-2md);
+}
+.text-3md{
+        font-size: var(--text-3md);
+}
 .fw-extrabold {
         font-weight: var(--fw-800) !important;
 }
+@media (min-width:767.9px) {
+
+        :root {
+         /* font-size */
+         --fs-sm: 12px;
+         --fs-base: 16px;
+         --fs-md: 16px;
+         --fs-3xl: 46px;
+          --fs-2xl: 40px;
+          --fs-4xl: 72px; 
+          --fs-2xxl: 80px;      
+ } 
+ }
 @media (min-width:991.9px) {
 
        :root {
@@ -45,20 +88,11 @@
         --fs-sm: 14px;
         --fs-base: 16px;
         --fs-md: 18px;
+        --fs-3md: 24px;
+        --text-2md: 38px;
         --fs-3xl: 52px;
          --fs-2xl: 46px;
-         --fs-4xl: 85px;       
-} 
-}
-@media (min-width:767.9px) {
-
-       :root {
-        /* font-size */
-        --fs-sm: 12px;
-        --fs-base: 16px;
-        --fs-md: 16px;
-        --fs-3xl: 46px;
-         --fs-2xl: 40px;
-         --fs-4xl: 72px;      
+         --fs-4xl: 85px;
+         --fs-2xxl: 132.83px;       
 } 
 }
